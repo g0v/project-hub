@@ -12,8 +12,6 @@ Oh My Hub
     - gulp open 
 
 ## Hubs
-
-- Projects Hub :: 專案列表
-- Resource Hub :: 可自由利用的插圖，音樂等等
+- only include project hub.
 
 - mockups from: https://g0v.github.io/project-hub-mockup/
