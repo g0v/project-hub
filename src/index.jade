@@ -1,0 +1,19 @@
+html(ng-app='ohmyhub' ng-controller='AppCtrl')
+  head
+  title(ng-bind="$state.current.title")
+  <!-- vendor:css --> 
+  <!-- endinject -->
+  <!-- app:css --> 
+  <!-- endinject -->
+  link(rel="stylesheet", type="text/css", href="/css/main.css")
+  <!-- vendor:js -->
+  <!-- endinject -->
+  <!-- common:js -->
+  <!-- endinject -->
+  <!-- html:js -->
+  <!-- endinject -->
+  <!-- app:js -->
+  <!-- endinject -->
+body(class='ui dimmable')
+  include ./app/nav/nav
+  <div ui-view></div>
