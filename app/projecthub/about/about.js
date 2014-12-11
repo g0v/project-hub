@@ -1,0 +1,1 @@
+angular.module("ohmyhub.projecthub.about",["ui.router"]).config(["$stateProvider",function(t){return t.state("project_about",{title:"Project Hub - About",url:"/projecthub/about",hub:{name:"Project Hub",root:"/projecthub"},controller:"ProjecthubAboutCtrl",templateUrl:"app/projecthub/about/about.html"})}]).controller("ProjecthubAboutCtrl",["$scope",function(){}]);
